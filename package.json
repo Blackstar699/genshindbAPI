@@ -1,0 +1,24 @@
+{
+  "name": "xlsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parser": "node parser.js",
+    "stats": "node stats.js",
+    "materials": "node materials.js",
+    "artifacts": "node artifacts.js",
+    "passives": "node passives.js",
+    "constellations": "node constellations.js",
+    "skills": "node skills.js",
+    "characters": "node characters.js",
+    "weapons": "node weapons.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "xlsx": "^0.18.5"
+  }
+}
