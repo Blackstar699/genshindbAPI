@@ -13,24 +13,21 @@ const source = path.join(__dirname, 'sources/GenshinAppDatas.xlsx')
 const workbook = xlsx.readFile(source);
 const sheetNameList = workbook.SheetNames;
 
-const datas = xlsx.utils.sheet_to_json(workbook.Sheets[sheetNameList[2]], {raw: false, defval: null});
+const datas = xlsx.utils.sheet_to_json(workbook.Sheets[sheetNameList[12]], {raw: false, defval: null});
 
 datas.forEach((data) => {
     //console.log(data);
     const post = axios.post(
-        'https://strapi-genshin.latabledesattentistes.fr/api/weapons',
+        'https://strapi-genshin.latabledesattentistes.fr/api/refinements',
         {
             data: {
-                ID_Weapons: data['ID'],
+                ID_Refinements: data['ID'],
                 Name: data['Name'],
-                Rarity: data['Rarity'],
-                Description: data['Description'],
-                ATQ: data['ATQ'],
-                SubStat: data['SubStat'],
-                WeaponType: data['WeaponType'],
-                ElevationMaterials: data['ElevationMaterials'],
-                Refinements: data['Refinements'],
-                Images: data['Images'],
+                R1: data['R1'],
+                R2: data['R2'],
+                R3: data['R3'],
+                R4: data['R4'],
+                R5: data['R5']
             }
         },
         {

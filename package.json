@@ -12,7 +12,8 @@
     "constellations": "node constellations.js",
     "skills": "node skills.js",
     "characters": "node characters.js",
-    "weapons": "node weapons.js"
+    "weapons": "node weapons.js",
+    "refinements": "node refinements.js"
   },
   "keywords": [],
   "author": "",

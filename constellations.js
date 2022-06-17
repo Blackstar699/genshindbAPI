@@ -25,16 +25,16 @@ datas.forEach((data) => {
                 Name: data['Name'],
                 C1: data['C1'],
                 DescriptionC1: data['Description C1'],
-                C1: data['C2'],
-                DescriptionC1: data['Description C2'],
-                C1: data['C3'],
-                DescriptionC1: data['Description C3'],
-                C1: data['C4'],
-                DescriptionC1: data['Description C4'],
-                C1: data['C5'],
-                DescriptionC1: data['Description C5'],
-                C1: data['C6'],
-                DescriptionC1: data['Description C6']
+                C2: data['C2'],
+                DescriptionC2: data['Description C2'],
+                C3: data['C3'],
+                DescriptionC3: data['Description C3'],
+                C4: data['C4'],
+                DescriptionC4: data['Description C4'],
+                C5: data['C5'],
+                DescriptionC5: data['Description C5'],
+                C6: data['C6'],
+                DescriptionC6: data['Description C6']
             }
         },
         {

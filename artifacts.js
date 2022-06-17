@@ -36,7 +36,8 @@ datas.forEach((data) => {
                 Bonus2: data['Bonus2'],
                 Bonus4: data['Bonus4'],
                 RarityMin: data['RarityMin'],
-                RarityMax: data['RarityMax']
+                RarityMax: data['RarityMax'],
+                Images: data['Images']
             }
         },
         {

@@ -39,7 +39,10 @@ datas.forEach((data) => {
                 Passives: data['Passives'],
                 Skill1: data['Skill1'],
                 Skill2: data['Skill2'],
-                Skill3: data['Skill3']
+                Skill3: data['Skill3'],
+                ElevationMaterials: data['ElevationMaterials'],
+                SkillsMaterials: data['SkillsMaterials'],
+                Images: data['Images']
             }
         },
         {

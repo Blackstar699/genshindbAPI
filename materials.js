@@ -24,7 +24,10 @@ datas.forEach((data) => {
                 ID_Materials: data['ID'],
                 Name: data['Name'],
                 Rarity: data['Rarity'],
-                Type: data['Type']
+                Type: data['Type'],
+                Description: data['Description'],
+                Source: data['Source'],
+                Images: data['Images']
             }
         },
         {
